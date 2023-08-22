@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Registro para el Club de Emprendedores de UCEMA</title>
+</head>
+<body>
+    <head>
+        <img src="" alt="">
+        <h1>Registro para el Club de Emprendedores de UCEMA</h1>
+        </nav>
+    </head>
+    <body>
+        <p>Postulate ahora con este formulario:</p>
+        <form action="" >
+            <fieldset style="display: flex; flex-direction: column;">
+                <legend>Información personal</legend>
+                <label for="candidate_name">Nombre Completo</label>
+                <input type="text" name="candidate_name" id="candidate_name">
+                <label for="candidate_email">Correo electrónico de UCEMA</label>
+                <input type="email" name="candidate_email" id="candidate_email">
+                <label for="candidate_birthday">Fecha de nacimiento</label>
+                <input type="date" name="candidate_birthday" id="candidate_birthday">
+                <label for="candidate_carrer">Carrea o Especialidad</label>
+                <input type="text" name="candidate_carrer" id="candidate_carrer">
+            </fieldset>
+            <fieldset style="display: flex; flex-direction: column;">
+                <legend>Sobre tu emprendimiento/interés</legend>
+                <label for="has_candidate_business">¿Tienes un emprendimiento en marcha?</label>
+                <select name="has_candidate_business" id="has_candidate_business">
+                    <option value="">Elige una opción</option>
+                    <option value="Yes">Si</option>
+                    <option value="No">No</option>
+                </select>
+                <label for="candidate_business_name">Nombre del emprendimiento (si corresponde)</label>
+                <input type="text" name="candidate_business_name" id="candidate_business_name">
+                <label for="candidate_business_description">Descripción breve del emprendimiento o área de interés</label>
+                <textarea name="candidate_business_description" id="candidate_business_description" cols="30" rows="6"></textarea>
+                <label for="candidate_business_lauch">¿Cuando lanzaste o lanzarás tu emprendimiento?</label>
+                <input type="date" name="candidate_business_lauch" id="candidate_business_lauch">
+            </fieldset>
+            <fieldset style="display: flex;flex-direction:column;">
+                <legend>Participación en el Club</legend>
+                <label for="is_candidate_speaker">¿Te gustaría dar una charla o taller?</label>
+                <select name="is_candidate_speaker" id="is_candidate_speaker">
+                    <option value="">Elige una opción</option>
+                    <option value="Yes">Si</option>
+                    <option value="No">No</option>
+                </select>
+                <div style="display: flex; flex-direction:column;">
+                    <p style="margin: 2px;">Temas de interés</p>
+                    <label for="candidate_topics_VC">Levantamiento de Capital <input type="checkbox" name="candidate_topics" id="candidate_topics_VC" value="VCs"></label>
+                    <label for="candidate_topics_Mkt">Marketing <input type="checkbox" name="candidate_topics" id="candidate_topics_Mkt" value="Marketing"></label>
+                    <label for="candidate_topics_BI">Inteligencia de Negocios <input type="checkbox" name="candidate_topics" id="candidate_topics_BI" value="BI">                </label>
+                    <label for="candidate_topics_IT">Tecnología  <input type="checkbox" name="candidate_topics" id="candidate_topics_IT" value="IT"> </label>
+                    <label for="candidate_topics_Other">Otros temas:</label>
+                    <input type="text" name="candidate_topics" id="candidate_topics_Other" placeholder="Escribe cual otro tema te interesaria" maxlength="20">    
+                </div>
+            </fieldset>
+            <fieldset style="display: flex; flex-direction:column;">
+                <legend>Disponibilidad</legend>
+                <p style="margin: 2px;">Días de la Semana que prefieres para las reuniones</p>
+                <label for="candidate_meeting_day_monday">Lunes<input type="checkbox" name="candidate_meeting_day" id="candidate_meeting_day_monday" value="Monday"></label>
+                <label for="candidate_meeting_day_Tuesday">Martes<input type="checkbox" name="candidate_meeting_day" id="candidate_meeting_day_Tuesday" value="Tuesday"></label>
+                <label for="candidate_meeting_day_Wednesday">Miércoles<input type="checkbox" name="candidate_meeting_day" id="candidate_meeting_day_Wednesday" value="Wednesday"></label>
+                <label for="candidate_meeting_day_Thursday">Jueves<input type="checkbox" name="candidate_meeting_day" id="candidate_meeting_day_Thursday" value="Thursday"></label>
+                <label for="candidate_meeting_day_Friday">Viernes<input type="checkbox" name="candidate_meeting_day" id="candidate_meeting_day_Friday" value="Friday"></label>
+                <label for="candidate_schedule_preferences">Horarios Preferidos</label>
+                <select name="candidate_schedule_preferences" id="candidate_schedule_preferences">
+                    <option value="">Elige una opción</option>
+                    <option value="Morning">Mañana</option>
+                    <option value="Evening">Tarde</option>
+                    <option value="Night">Noche</option>
+                </select>
+            </fieldset>
+            <fieldset style="display: flex; flex-direction:column;">
+                <legend>Otras informaciones</legend>
+                <label for="candidate_how_did_you_hear_about_us">¿Cómo te enteraste del club?</label>
+                <select name="candidate_how_did_you_hear_about_us" id="candidate_how_did_you_hear_about_us">
+                    <option value="">Elige una opción</option>
+                    <option value="friends&family">amigos/familia</option>
+                    <option value="social_media">redes sociales</option>
+                    <option value="flyers">folletos</option>
+                    <option value="emails">correos de la UCEMA</option>
+                    <option value="other">otros</option>
+                </select>
+                <label for="candidate_other_info">Espacio para comentarios o sugerencias adicionales</label>
+                <textarea name="candidate_other_info" id="candidate_other_info" cols="20" rows="5"></textarea>
+            </fieldset>
+            <br>
+            <button type="submit">Enviar el Formulario</button> <button type="reset">Restablecer</button>
+        </form>
+    </body>
+    <footer>
+
+    </footer>
+</body>
+</html>
